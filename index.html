@@ -1,11 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <style>
+    .purple{
+      background-color: purple;
+    }
+    #red{
+      color: red;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>This is my first html.</h1>
+
+  <!-- Headings -->
+
+  <h1>This is h1 Heading.</h1>
+  <h2>This is h2 Heading.</h2>
+  <h3>This is h3 Heading.</h3>
+  <h4>This is h4 Heading.</h4>
+  <h5>This is h5 Heading.</h5>
+  <h6>This is h6 Heading.</h6>
+
+  <!-- Paragraphs -->
+  <h1>This is a paragraph.</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsam rerum animi commodi iste aspernatur
+    temporibus debitis a, accusantium sunt esse, nemo reprehenderit blanditiis nihil tenetur ab perferendis quia ipsum
+    eveniet. Dolorum accusantium dolor distinctio ipsa eligendi tempora iste libero quaerat, odit laudantium debitis
+    veniam, officiis, error perspiciatis nihil incidunt</p>
+
+  <!-- Tag used for  code snippets or maintain the format of the document is pre tag -->
+
+  <h1>Code snippet using pre tag.</h1>
+  <pre>
+      &lt;!DOCTYPE html&gt;
+      &lt;html lang="en"&gt;
+      &lt;head&gt;
+        &lt;meta charset="UTF-8"&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;title&gt;Document&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        
+      &lt;/body&gt;
+      &lt;/html&gt;
+    </pre>
+
+
+  <!-- Text formatting -->
+
+  <h1>Text formatting using bold &lt;b&gt;, strong &lt;strong&gt;, italic &lt;
+    i&gt;, em &lt;em&gt;, undrline &lt;u&gt;, subscript &lt;sub&gt;, superscript &lt;sup&gt; tags.</h1>
+
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b>Impedit</b> dolores modi perferendis, ad eius mollitia
+    facere quibusdam commodi molestias, nostrum, ea animi quis inventore error? A,<strong> laborum asperiores.
+    </strong>Voluptatum voluptas quae ad nostrum laboriosam <i>excepturi similique</i> hic unde veniam ipsa <em>
+      repellendus porro</em> labore <u>voluptatibus</u> aspernatur <sup>ut</sup> magni aut, <sub>soluta</sub> ducimus.
+  </p>
+
+  <!-- divs, classes, ids, and styles -->
+
+  <h1>Divs</h1>
+  <div  class="purple" id="red" style="font-weight: 900;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus amet veritatis neque accusantium suscipit ipsam, nisi obcaecati, quod nulla totam voluptatem vero quos laborum nesciunt commodi laboriosam est tempora ipsa ut pariatur. Reprehenderit repellendus voluptatibus expedita repellat, odio at perspiciatis aut illum dolores vel quod ducimus aliquid, reiciendis ratione dicta!</div>
+  <!-- more styles in head  -->
+
+  <!-- blockquotes, quotes, abbreviations -->
+
+  <h1>Quotes and Citations</h1>
+  <h2>Blockquotes</h2>
+  <blockquote cite="https://en.wikipedia.org/wiki/English_language">English is a West Germanic language in the Indo-European language family, whose speakers, called Anglophones, originated in early medieval England.[4][5][6] The namesake of the language is the Angles, one of the ancient Germanic peoples that migrated to the island of Great Britain.</blockquote>
+  <h2>Quotes.</h2>
+  <q>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolores ipsam quaerat porro laboriosam? Ab porro sapiente voluptates tempore ut assumenda! Porro, non. Tempore sunt officia, aut quas impedit facere?</q>
+  <h2>Abbreviations.</h2>
+  <abbr title="American Standard Code for Information Interchange">ASCII</abbr>
+
+  <!-- Semantic tags like header, footer, nav, article, section, aside etc  -->
+  <h1>Semantic Tags.</h1>
+  <header>
+    This is a Header.
+    <nav>
+      this is a navbar
+      <ol>
+        <li>Home</li>
+        <li>About</li>
+        <li>Acadamics</li>
+        <li>Results</li>
+      </ol>
+    </nav>
+  </header>
+  <footer>This is a footer.</footer>
+  <h2>Articles.</h2>
+  <article >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis eveniet cum repellendus labore deleniti. Culpa libero temporibus tenetur possimus rem cupiditate consectetur exercitationem, voluptate ullam incidunt iure, delectus dolore nisi!</article>
+  <h2>Aside tag</h2>
+  <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus asperiores dolorem itaque aspernatur incidunt, ad cumque eaque sed voluptatibus quam!</aside>
+  <h2>Section tag.</h2>
+  <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga molestias, labore eligendi commodi suscipit quo excepturi cumque qui! Sint?</section>
+
+  <!-- Lists -->
+
+  <h1>Lists.</h1>
+  <h2>Ordered Lists.</h2>
+  <!-- <ol type="" (1,A,a,I,i)></ol> for different types of ordering -->
+  <ol>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+  </ol>
+
+  <h2>Unordered Lists.</h2>
+  <!-- <ul style="list-style-type: ; "(circle,square,armenian,disk...etc)> for different ordering -->
+  <ul>
+    <li>one </li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+  </ul>
+
+  <h2>Description Lists.</h2>
+  <dl>
+    <dt>Lorem.</dt>
+    <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, corporis.</dd>
+    <dt>Lorem, ipsum.</dt>
+    <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate soluta dicta tenetur, debitis numquam reprehenderit.</dd>
+  </dl>
+
+  <!-- Links using anchor tags  -->
+
+  <a href="https://en.wikipedia.org/wiki/English_language" title="Goto wikipedia" target="_blank">wikipedia</a>
+  <!-- this is an example of absolute referncing like full url of the website.-->
+  <br>
+  <a href="index1.html" title="Goto the new page" target="_blank">new page</a>
+  <!-- this is relative referncing as the new page is avaiable in the root folder -->
+
+  <!-- Media  -->
+
+  <h1>Using Media tags like video, img, iframe, picture etc..</h1>
+
+  <h2>Image tag.(with link)</h2>
+  <a href="https://en.wikipedia.org/wiki/English_language" title="Goto wikipedia"><img src="Screenshot 2024-02-07 212852.png" alt="Image" width="500" height="400"/></a>
+  
+  <h2>Video tag.</h2>
+  <video src="202877-919288692_tiny.mp4" width="500" preload="auto" controls autoplay muted></video>
+
+  <h2>Audio tag.</h2>
+  <audio src="y2mate.is - Video Audio Media in HTML Sigma Web Development Course Tutorial 10-XZwBNDGuWGU-192k-1708444269.mp3" autoplay muted controls preload="auto"></audio>
+
+  <h2>Iframes.</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bXShm9e64Hw?si=_lWXmfhw4dogLR_D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <iframe src="https://en.wikipedia.org/wiki/English_language" frameborder="10" width="500" height="700"></iframe>
+
+  <h2>Picture tag.</h2>
+  <picture>
+    <source media="(min-width: 650)" srcset="https://th.bing.com/th/id/OIP.iBvR7avPLAtj8pnU537ARQHaE8?w=279&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+    <img src="https://th.bing.com/th/id/OIP.wDjzOVpw5-Yaqt2P9utvSAHaGc?w=214&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="image">
+  </picture>
+
+  <!-- tables -->
+
+  <h2>Tables .</h2>
+  <table style="border: 3px solid black;">
+    <thead>
+      <th>name</th>
+      <th>class</th>
+      <th>roll no.</th>
+    </thead>
+    <tr>
+      <td>akshat</td>
+      <td>cse </td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>aditya</td>
+      <td>cse </td>
+      <td>22</td>
+    </tr>
+    <tfoot>
+      <td>total attendence</td>
+      <td>full</td>
+      <td>good</td>
+    </tfoot>
+  </table>
+
+  <!-- forms -->
+
+  <h2>Forms.</h2>
+  <form action="/index1.html">
+    <label for="fname">Enter your first name</label>
+    <input type="text" name="first name" id="fname" value="your first name">
+    <br>
+    <br>
+    <label for="lname">Enter your last name</label>
+    <input type="text" name="last name" id="lname" value="your last name">
+    <p>Choose your class : </p>
+    <br>
+   <!-- Label is for id and only one choice is for name  -->
+    <input type="radio" name="classes" id="cse" value="CSE">
+    <label for="cse">CSE</label>
+    <input type="radio" name="classes" id="ece" value="ECE">
+    <label for="ece">ECE</label>
+    <input type="radio" name="classes"  id="ee" value="EE">
+    <label for="ee">EE</label>
+    
+  <p>select your preferences(all that applicable)</p>
+  <input type="checkbox" id="env">
+  <label for="env">good environment</label>
+  <input type="checkbox" id="campus">
+  <label for="campus">good campus</label>
+  <input type="checkbox" id="salary">
+  <label for="salary">good salary</label>
+  <br> 
+  <br>
+  <label for="car">Select a car</label>
+  <select name="cars" id="car">
+    <option value="volvo">volvo</option>
+    <option value="lambo">Lamborgini</option>
+    <option value="benz">benz</option>
+    <option value="alto">alto</option>
+  </select>
+  <!-- <input type="button">
+  <input type="color" name="" id="">
+  <input type="date" name="" id="">
+  <input type="datetime" name="" id=""> 
+
+  And many more input types.-->
+
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+
+  </form>
+  
+
+  
+
+
+
 </body>
+
 </html>
