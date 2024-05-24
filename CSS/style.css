@@ -23,6 +23,7 @@ h1.para#paragraphs{
   color: rgba(171, 64, 64, 0.5);
   color: hsl(hue, saturation, lightness);
   color: hsla(hue, saturation, lightness, alpha); */
+  
 
 }
 
